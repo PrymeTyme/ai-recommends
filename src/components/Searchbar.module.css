@@ -1,0 +1,132 @@
+.mat{
+    margin-right: 10px;
+}
+
+.mainBody{
+    flex:1;
+    display: flex;
+    margin-top: 12px;
+    flex-direction: column;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 61px;
+    background-color: white;
+    
+}
+
+.head{
+    height: 10px;
+    padding: 10px 20px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    margin-bottom: -10px;
+    
+
+}
+
+.searchInput{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 500px;
+    
+
+}
+
+
+.searchInput input{
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    
+}
+
+.searchCategory{
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    margin-left: 625px;
+    margin: 10px auto;
+
+   
+}
+
+.searchCategory button{ 
+    width: 50%;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.searchCategory button:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.searchCategory button:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.searchCategory button:hover{
+    filter: brightness(115%);
+}
+
+.magnifyingGlass{
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    padding: 0.5em;
+    margin: -0.5em;
+    margin-right: -0.8em;
+    color: #A3A3A3;
+    
+    
+   
+}
+
+.magnifyingGlass:hover{
+    filter: brightness(25%);
+    
+    
+
+}
+
+@media screen and (max-width: 480px) {
+    .searchInput input{
+        font-size: 15px;
+        font-weight: 400;
+        
+    }
+
+    .searchCategory button{ 
+        width: 80%;
+        padding: 14px 25px;
+        font-size: 15px;
+       
+   
+    }
+
+
+}

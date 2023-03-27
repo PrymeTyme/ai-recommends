@@ -1,0 +1,81 @@
+.cardContainer {
+    overflow: hidden;
+    box-shadow: 0 0px 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    background-color: #04AA6D;
+}
+
+
+.cardBody{
+    height: 80px;
+   
+}
+
+.cardContainer:hover > .image{
+    height: 80px;
+
+}
+
+
+
+.bodyHeader{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 25px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.year{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.genre{
+    font-size: smaller;
+    margin-right: 10px;
+    
+    
+}
+
+.bodyFooter{
+    margin-top: -10px;
+    display: grid;
+    grid-template-rows: 20px auto;
+    font-size: smaller;
+}
+
+
+
+.image{
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    
+    
+}
+
+.title{
+    line-height: 1rem;
+    font-size:large;
+    margin-left: 10px;
+    
+}
+
+.rating{
+    line-height: 1rem;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.description{
+    padding: 0 1rem;
+    text-align: left;
+
+}

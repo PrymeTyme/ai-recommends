@@ -1,0 +1,34 @@
+.background{
+    background-color: #04AA6D;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top:0;
+
+}
+
+.header{
+    display: flex;
+    justify-content:  space-between;
+    padding: 20px 30px;
+    align-items: center;
+  
+    
+}
+
+.header a{
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    text-decoration: inherit;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.headerRight{
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}

@@ -1,0 +1,33 @@
+.wrapper {
+    flex: 1;
+    display: flex;
+    margin: 10px auto;
+    max-width: fit-content;
+
+}
+
+.container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-auto-rows: auto;
+    column-gap: 10px;
+    row-gap: 15px;
+    height: 100%;
+
+}
+
+.card {
+    background-color: darkcyan;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        grid-template-columns: 350px;
+    }
+
+   
+}
